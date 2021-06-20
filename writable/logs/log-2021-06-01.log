@@ -1,0 +1,15 @@
+CRITICAL - 2021-06-01 21:02:37 --> Undefined variable: judul
+#0 C:\xampp\htdocs\visualisasi-data\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\visualisasi-data\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\visualisasi-data\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\visualisasi-data\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('template/header', Array, true)
+#4 C:\xampp\htdocs\visualisasi-data\app\Controllers\Home.php(46): view('template/header')
+#5 C:\xampp\htdocs\visualisasi-data\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Home->coba()
+#6 C:\xampp\htdocs\visualisasi-data\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\visualisasi-data\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\visualisasi-data\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\visualisasi-data\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-01 21:17:20 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
